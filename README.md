@@ -29,8 +29,7 @@ mvn os:deploy -Dlocators=localhost:4174
 Otherwise you can deploy to XAP using [one of the other deployment options](http://wiki.gigaspaces.com/wiki/display/XAP96/Deploying+and+Running+the+Processing+Unit). 
 
 
-Some more details on building, packaging and deploying
-======================================================
+### Some more details on building, packaging and deploying
 
 Quick list:
 
