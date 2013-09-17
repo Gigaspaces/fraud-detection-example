@@ -2,10 +2,10 @@ Description
 ===========
 
 Fraud detection project for credit card authorization. The project consists of few modules:
-	common - contains POJOs which are common to the other modules.
-	feeder - create payment transactions.
-	user - contains functionality for payment validation.
-	vendor - contains functionality for vendor validation.
+* `common` - contains POJOs which are common to the other modules.
+* `feeder` - creates payment transactions.
+* `user` - contains functionality for payment validation.
+* `vendor` - contains functionality for vendor validation.
 
 Requirements
 ============
