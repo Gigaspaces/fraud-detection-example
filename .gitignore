@@ -9,7 +9,7 @@
 .idea/
 
 # Maven traget files 
-/target
+**/target
 
 # Java artifacts 
 *.class
@@ -18,3 +18,4 @@
 *.jar
 *.war
 *.ear
+*.log

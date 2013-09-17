@@ -5,7 +5,7 @@
     <artifactId>user</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>processor</name>
+    <name>user</name>
     <parent>
         <groupId>com.gigaspaces.blueprint.frauddetection</groupId>
         <artifactId>frauddetection</artifactId>
