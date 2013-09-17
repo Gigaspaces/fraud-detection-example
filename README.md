@@ -14,15 +14,15 @@ JDK 1.6 or higher, Maven, XAP
 
 How to run
 ==========
-# Download and install XAP. [This page](http://wiki.gigaspaces.com/wiki/display/XAP96/Installing+GigaSpaces) will get you started. 
-# Clone this repository to your local drive. 
-# Start XAP agent using
+* Download and install XAP. [This page](http://wiki.gigaspaces.com/wiki/display/XAP96/Installing+GigaSpaces) will get you started. 
+* Clone this repository to your local drive. 
+* Start XAP agent using
 ```
 <XAP HOME>/bin/gs-agent.sh
 ```
-# Package the project: `mvn package`
-# Open a command line termianl and cd to the directory into which you cloned the repo. 
-# Assuming you have the [XAP Maven plugin](http://www.gigaspaces.com/wiki/display/XAP96/Maven+Plugin) installed, you can deploy the project to XAP using the following maven command: 
+* Package the project: `mvn package`
+* Open a command line termianl and cd to the directory into which you cloned the repo. 
+* Assuming you have the [XAP Maven plugin](http://www.gigaspaces.com/wiki/display/XAP96/Maven+Plugin) installed, you can deploy the project to XAP using the following maven command: 
 ```
 mvn os:deploy -Dlocators=localhost:4174
 ```
@@ -34,13 +34,13 @@ Some more details on building, packaging and deploying
 
 Quick list:
 
-* mvn compile: Compiles the project.
-* mvn os:run: Runs the project.
-* mvn test: Runs the tests in the project.
-* mvn package: Compiles and packages the project.
-* mvn os:run-standalone: Runs a packaged application (from the jars).
-* mvn os:deploy: Deploys the project onto the Service Grid.
-* mvn os:undeploy: Removes the project from the Service Grid.
+* `mvn compile`: Compiles the project.
+* `mvn os:run`: Runs the project.
+* `mvn test`: Runs the tests in the project.
+* `mvn package`: Compiles and packages the project.
+* `mvn os:run-standalone`: Runs a packaged application (from the jars).
+* `mvn os:deploy`: Deploys the project onto the Service Grid.
+* `mvn os:undeploy`: Removes the project from the Service Grid.
 
 In order to build the example, a simple `mvn compile` executed from the root of the project will compile all the different modules.
 
