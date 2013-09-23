@@ -1,7 +1,9 @@
 Description
 ===========
 
-Fraud detection project for credit card authorization. The project consists of few modules:
+Fraud detection project for credit card authorization using GigaSpaces XAP. This application demonstrates how to build a scalable credit card fraud detection application on top of GigaSpaces XAP, using XAP's in-memory event processing and data access capabilities. More details can be found in [this slide deck](http://www.slideshare.net/uri1803/gigaspaces-xap-dont-call-me-cache-java-version-sept-10). 
+
+The project consists of few modules:
 * `common` - contains POJOs which are common to the other modules.
 * `feeder` - creates payment transactions.
 * `user` - contains functionality for payment validation.
